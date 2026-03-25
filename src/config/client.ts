@@ -79,9 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Jeremy Drake", rating: 5, text: "Without exception the best, most skillful and hardest working gardener in the area. He does two hours work in every hour. Amazing work ethic, reliability and attention to detail. Never leaves a mess behind him and a really nice guy too. Highly recommended.", date: "4 years ago" },
+    { name: "Yinnon Ezra", rating: 5, text: "An excellent team - George and Annabel do a fantastic job. George turns his hand to many things and works furiously. Cannot recommend them enough.", date: "2 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
