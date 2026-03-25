@@ -30,7 +30,7 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
+  googleRating: "5",
   reviewCount: "2",
 
   // Services
@@ -79,8 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Jeremy Drake", rating: 5, text: "Without exception the best, most skillful and hardest working gardener in the area. He does two hours work in every hour. Amazing work ethic, reliability and attention to detail. Never leaves a mess behind him and a really nice guy too. Highly recommended.", date: "4 years ago" },
-    { name: "Yinnon Ezra", rating: 5, text: "An excellent team - George and Annabel do a fantastic job. George turns his hand to many things and works furiously. Cannot recommend them enough.", date: "2 years ago" },
+    { name: "Jeremy Drake", rating: 5, text: "Without exception the best, most skillful and hardest working gardener in the area. He does two hours work in every hour. Amazing work ethic, reliability and attention to detail. Never leaves a mess behind him and a really nice guy too. Highly recomm", date: "4 years ago" },
+    { name: "Yinnon Ezra", rating: 5, text: "An excellent team - George and Annabel do a fantastic job. George turns his hand to many things and works furiously.  Can't recommend them enough ", date: "2 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
